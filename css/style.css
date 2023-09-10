@@ -1,1 +1,299 @@
 @charset "utf-8";
+
+.inner {
+    width: 1100px;
+}
+
+/* ------------------------------ヘッダー------------------------------ */
+header {
+    background: #fff;
+}
+
+nav .fa-color {
+    color: #777;
+}
+
+.nav-pos {
+    margin: 0 auto;
+}
+
+.header-pos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* 上記のflexで要素の高さが揃わないようにする */
+    padding: 15px 0 15px 0;
+}
+
+.header-bottan {
+    text-align: center;
+    color: #fff;
+    background-color: #6ba7eb;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px 14px;
+}
+
+.header-bottan a {
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.header-bottan a:hover {
+    color: #333;
+}
+
+/* ------------------------------メインビジュ------------------------------ */
+
+.keyvisual {
+    background-image: url(../img/keyvisual/keyvisual.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.key-v-tx {
+    font-size: 65px;
+    font-weight: 700;
+    color: #6ba7eb;
+    padding-top: 400px;
+    text-align: center;
+}
+
+.key-v-txs {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 400px;
+    text-align: center;
+}
+
+/* WORK */
+.work {
+    background: #e3f2fd;
+    padding-top: 50px;
+}
+
+.work-s {
+    margin: 0 auto;
+}
+
+.work-flex{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.work-tx-siz {
+    width: 60%;
+    text-align: center;
+}
+
+.pc-pic {
+    width: 40%;
+    text-align: center;
+}
+
+.pc-pic img {
+    width: 250px;
+    background-size: cover;
+}
+
+.sec-work {
+    padding-top: 20px;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.text-work {
+    font-size: 15px;
+    line-height: 18px;
+    word-break: break-all;
+    padding-top: 35px;
+}
+
+/* ------------------------------スキル------------------------------ */
+
+.skills {
+    background: #fff;
+    padding-bottom: 70px;
+}
+
+.skill-icons-poz {
+    margin: 0 auto;
+}
+
+.skill-ti {
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding: 50px;
+    text-align: center;
+}
+
+.skill-icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.skill-icon2 {
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: 70px;
+}
+
+.skill-logo {
+    background-image: url(../img/skills/skills_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.skill-came {
+    background-image: url(../img/skills/skills_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.skill-clo {
+    background-image: url(../img/skills/skills_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.skill-mov {
+    background-image: url(../img/skills/skills_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.skill-pic {
+    background-image: url(../img/skills/skills_5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.skill-song {
+    background-image: url(../img/skills/skills_6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.skill-opa {
+    opacity: 0.7;
+}
+
+.skill-opa:hover {
+    opacity: 1.0;
+}
+
+/* ------------------------------プラン------------------------------ */
+.plan-ti {
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding: 50px;
+    text-align: center;
+}
+
+.plan {
+    background: #d0dfea;
+    padding-bottom: 50px;
+}
+
+.pian-siz {
+    margin: 0 auto;
+}
+
+.plan-tab {
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;    /* 幅を均等に */
+    border-collapse: collapse;  /* 枠線の重複を消す */
+}
+
+td,th {
+    border: none;
+    border-left: 2px solid #fff;    /* 一旦枠線を消して指定し直す */
+}
+
+th:first-child {
+    border-left: none;  /* 一番左の枠線は消す */
+}
+
+th {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px;
+}
+
+td {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px;
+}
+
+tr:nth-of-type(2n-1) {
+    background: #f9f9f9;
+}
+
+tr:nth-of-type(2n) {
+    background: #e0efff;
+}
+
+tr:nth-child(1) {
+    background: #6ba7eb;
+}
+
+/* ------------------------------SNS------------------------------ */
+.sns {
+    background: #e3f2fd;
+}
+
+.sns-icon {
+    padding: 200px 0;
+}
+
+.fa-sns-set {
+    color: #8c8c8c;
+    overflow: hidden;
+    font-size: 40px;
+    transition-duration: 0.5s;
+}
+
+.fa-sns-set:hover {
+    color: #fff;
+}
+
+.sns-icon-li {
+    display: flex;
+    justify-content: center;
+}
+
+.sns-icon-li li {
+    width: 185px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+/* ------------------------------フッター------------------------------ */
+footer {
+    background: #cfd8dc;
+
+}
+
+.foot-cop {
+    text-align: right;
+    padding: 20px 0 25px 0;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
